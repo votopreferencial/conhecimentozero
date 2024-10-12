@@ -1,0 +1,16 @@
+require('dotenv').config();
+
+module.exports = {
+  channelName: 'mychannel',
+  chaincodeName: 'stvvoting',
+  mspOrg1: 'Org1MSP',
+  walletPath: './wallet',
+  org1UserId: 'appUser',
+  connectionProfilePath: './connection-org1.json',
+  contractMethods: {
+    initLedger: 'InitLedger',
+    vote: 'Vote',
+    countVotes: 'CountVotes',
+    getCandidates: 'GetCandidates'
+  }
+};

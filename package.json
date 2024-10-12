@@ -1,0 +1,13 @@
+{
+  "name": "fabric-stv-voting",
+  "version": "1.0.0",
+  "description": "Hyperledger Fabric STV Voting Application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "fabric-network": "^2.2.0",
+    "dotenv": "^10.0.0"
+  }
+}
